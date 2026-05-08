@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- ポータブル版用の追記 ---
+# 巨大な実行環境本体（これはReleaseで配布するため）
+system/
+webui/
+images/
+
+# 制作中のテスト出力画像
+output.png
+output.jpg
+output.webp
+output/
